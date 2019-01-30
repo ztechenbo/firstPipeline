@@ -6,7 +6,7 @@ def start(){
 run_in_node(){
   node {
  state("hello"){
-    echo "hello world"
+    echo "hello world!!!!!!!!!!!!!"
   }
   }
 }
