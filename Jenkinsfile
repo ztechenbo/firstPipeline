@@ -1,16 +1,5 @@
-pipeline{
-	agent any
-	parameters{
-	
-		string(name:'Greeting',defaultValue:'Hello',description:'How should I greet the world?')
-	}
-	stages{
-		stage("Example"){
-			steps{
-			
-				echo "${params.Greeting} world"
-			
-			}
-		}
-	}
+static main(args){
+
+ def pipeline = load 'test.groovy'
+  pipeline.start()
 }
