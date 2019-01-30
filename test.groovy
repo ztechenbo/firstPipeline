@@ -1,12 +1,5 @@
 
 def start(){
- run_in_node()
+ echo "hello chenbo"
 }
 
-run_in_node(){
-  node {
- state("hello"){
-    echo "hello world!!!!!!!!!!!!!"
-  }
-  }
-}
